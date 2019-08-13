@@ -1,0 +1,207 @@
+.booking-area {
+    padding:10px;
+    background: rgb(252, 252, 252);
+    color: black;
+    font-family: 'Nunito SemiBold';
+}
+
+.booking-area .row .card{
+    color: black;
+    margin: 20px;
+    top: 50%;
+    left: 2%;
+}
+
+.booking-area .row .card img{
+    width: 100%;
+    height: 160px;
+    font-family: 'Nunito';
+}
+
+/* Custom Scroll Bar */
+
+::-webkit-scrollbar{
+    width: 9px;
+    border-radius: 5px;
+    background: rgb(36, 35, 35);
+
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(36, 35, 35);
+    border-radius: 5px;
+    border: solid crimson 5px;
+}
+
+/* End of Custom Scroll Bar */
+
+/* Horizontal Line */
+
+.line-white{
+    background: white;
+    border: solid white 1px;
+    border-radius: 50%;
+    width: 75%;
+}
+
+.line-black{
+    background: rgb(15, 15, 15);
+    border: solid rgb(15, 15, 15) 2px;
+    border-radius: 50%;
+    width: 75%;
+}
+
+
+/* End of Horizontal Line */
+
+/* Image of the card */
+
+.image img{
+    width: 100%;
+    height: 50%;
+    font-family: 'Nunito';
+}
+
+/*  */
+
+.gallery{
+    margin: 20px;
+}
+
+.gallery .card .image img{
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.contactUs{
+    color: white;
+    padding:5px;
+    background: rgb(15, 15, 15);
+}
+
+
+/* Contact Us */
+
+
+/* Paralaxx */
+
+.paralaxx{
+    border-radius: 5px;
+    width: 100%;
+    height: 25vw;
+    background-image: url("img/contactUs.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.part1{
+    padding-left: 4%; 
+}
+
+
+
+/*  */
+
+/* Inputs of contact us */
+
+.form-box{
+padding: 50px;
+}
+
+.text-box1 input{
+    font-family: 'Nunito';
+    margin: 10px;
+    color: black;
+    background: White;
+    border-radius: 8px;
+    border: solid white 3px;
+    width: 100%;
+    height: 45px;
+    padding: 15px;
+}
+
+.text-box1 input:hover{
+    font-family: 'Nunito';
+    color: Black;
+    background: White;
+    border-radius: 8px;
+    border: solid crimson 4px;
+    transition: 0.8s;
+    padding: 15px;
+}
+
+.text-box2 textarea{
+    font-family: 'Nunito';
+    margin: 10px;
+    color: black;
+    background: White;
+    border-radius: 8px;
+    border: solid white 3px;
+    width: 100%;
+    height: 80px;
+    padding: 15px;
+}
+
+.text-box2 textarea:hover{
+    font-family: 'Nunito';
+    color: Black;
+    background: White;
+    border-radius: 8px;
+    border: solid crimson 4px;
+    transition: 0.8s;
+    padding: 15px;
+}
+
+
+input::placeholder{
+    color: black;
+}
+
+/*  */
+
+/* button_submit */
+
+.button_submit button{
+    width: 200px;
+    border: solid white 2px;
+}
+
+/*  */
+
+
+/* Logo */
+
+.mContent img{
+    /* top: 50%;
+    left: 50%;
+    padding-top: 14%;
+    margin-left: 30%; */
+    margin-top: 6%;
+    width: 400px;
+}
+
+/*  */
+
+/* Footer */
+
+footer{
+    font-family: 'Nunito';
+    font-size: 17px;
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 0.5rem;
+}
+
+.footer_img1 img{
+    width: 250px;
+    height: 70px;
+}
+
+.footer_img2 img{
+    width: 130px;
+    height: 120px;
+}
+/*  */

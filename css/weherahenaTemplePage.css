@@ -1,0 +1,9 @@
+.directLink b a{
+    color: crimson;
+    transition: 0.5s;
+}
+
+.directLink b a:hover{
+    color: crimson;
+    transition: 0.5s;
+}
