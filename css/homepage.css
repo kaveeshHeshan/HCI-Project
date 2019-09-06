@@ -1,0 +1,79 @@
+.search input{
+    border: none;
+    background: crimson;
+    width: 100%;
+    height: 50px;
+}
+
+.descript{
+    color: black;
+    font-family: "Nunito";
+}
+
+.descript h6{
+    color: rgb(73, 72, 72);
+    font-family: "Nunito";
+}
+
+.inclusion{
+    width: 100%;
+    display: grid;
+    grid-auto-flow: dense;
+    grid-template: "1fr 1fr 1fr 1fr 1fr" 33.33vh
+                   "1fr 1fr 1fr 1fr 1fr" 33.33vh;
+    grid-gap: 3px;
+}
+
+.inclusion .box {
+    position: relative;
+    background: #ccc;
+}
+
+.inclusion .box img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.inclusion .box.a{
+    grid-row: span 2;  
+}
+
+.inclusion .box.b,
+.inclusion .box.f{
+    grid-column: span 2;  
+}
+
+@media (max-width: 991px){
+    .inclusion{
+        grid-template: "1fr 1fr" 200px
+                       "1fr 1fr" 200px
+                       "1fr 1fr" 200px
+                       "1fr 1fr" 200px
+                       "1fr 1fr" 200px
+                       "1fr 1fr" 200px
+                       "1fr 1fr" 200px;
+    }
+}
+
+.description p{
+    font-family: "Nunito";
+    font-size: 19px;
+}
+
+.text1{
+    font-size: 20px;
+}
+
+#slides{
+    width: 100%;
+    background-size: cover;
+}
+
+.carousel-inner img{
+    width: 90%;
+    height: 90%;
+}

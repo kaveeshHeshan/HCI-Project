@@ -1,22 +1,4 @@
 body{
-    background: url('img/ExcursionPage_1.png') fixed;
-    background-size: cover;
-}
-
-.line-black{
-    background: rgb(15, 15, 15);
-    border: solid rgb(15, 15, 15) 2px;
-    border-radius: 50%;
-    width: 75%;
-}
-
-.card img{
-    width: 100%;
-    height: 50%;
-    font-family: 'Nunito';
-}
-
-body{
     overflow-x: hidden;
 }
 
@@ -95,3 +77,23 @@ footer{
 
 
 /* End of Horizontal Line */
+
+  /* Custom Scroll Bar */
+  
+  ::-webkit-scrollbar{
+    width: 9px;
+    border-radius: 5px;
+    background: rgb(36, 35, 35);
+  
+  }
+  
+  ::-webkit-scrollbar-thumb{
+    background-color: rgb(36, 35, 35);
+    border-radius: 5px;
+    border: solid crimson  5px;
+  }
+  
+  /* #ffc72c */
+  
+  
+  /* End of Custom Scroll Bar */

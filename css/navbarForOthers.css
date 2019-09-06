@@ -36,7 +36,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 15px;
     font-family: 'Nunito Light';
 }
@@ -50,13 +50,13 @@ nav{
 
 span{
     color: crimson;
-    font-size: 80px;
+    font-size: 40px;
     font-family: 'Edwardian Script ITC';
 }
 
 .brand span{
     color: crimson;
-    font-size: 40px;
+    font-size: 50px;
     font-family: 'Brush Script MT';
 }
 
@@ -75,16 +75,21 @@ nav ul li:nth-child(1){
 }
 
 nav ul li:nth-child(2){
-    animation-delay: .5s;
+    animation-delay: .3s;
 }
 
 nav ul li:nth-child(3){
-    animation-delay: 1s;
+    animation-delay: .6s;
 }
 
 nav ul li:nth-child(4){
-    animation-delay: 1.5s;
+    animation-delay: .9s;
 }
+
+nav ul li:nth-child(5){
+    animation-delay: 1.2s;
+}
+
 
 nav ul li a{
     padding: 1rem 0;
@@ -103,7 +108,7 @@ nav ul li a::after{
     position: absolute;
     width: 100%;
     height: 2px;
-    background-color: White;
+    background-color: crimson;
     left: 0;
     transform: scaleX(0);
     transition: all .5s;
@@ -132,4 +137,13 @@ nav ul li a:hover::after{
         transform: translateX(0);
 
     }
+}
+
+.navbar-brand{
+    font-weight: 600;
+  }
+  
+.nav-item {
+    font-family: 'Nunito';
+    font-weight: 600;
 }

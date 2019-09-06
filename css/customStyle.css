@@ -30,8 +30,11 @@
 ::-webkit-scrollbar-thumb{
     background-color: rgb(36, 35, 35);
     border-radius: 5px;
-    border: solid crimson 5px;
+    border: solid crimson  5px;
 }
+
+/* #ffc72c */
+
 
 /* End of Custom Scroll Bar */
 
@@ -63,7 +66,7 @@
 }
 
 /*  */
-
+/* 
 .gallery{
     margin: 20px;
 }
@@ -71,20 +74,21 @@
 .gallery .card .image img{
     margin: 5px;
     border-radius: 10px;
-}
+} */
 
-.contactUs{
-    color: white;
-    padding:5px;
-    background: rgb(15, 15, 15);
-}
+
 
 
 /* Contact Us */
 
+/* .contactUs{
+    color: white;
+    padding:5px;
+    background: rgb(15, 15, 15);
+} */
 
 /* Paralaxx */
-
+/* 
 .paralaxx{
     border-radius: 5px;
     width: 100%;
@@ -99,7 +103,7 @@
 
 .part1{
     padding-left: 4%; 
-}
+} */
 
 
 
@@ -107,7 +111,7 @@
 
 /* Inputs of contact us */
 
-.form-box{
+/* .form-box{
 padding: 50px;
 }
 
@@ -158,16 +162,16 @@ padding: 50px;
 
 input::placeholder{
     color: black;
-}
+} */
 
 /*  */
 
 /* button_submit */
 
-.button_submit button{
+/* .button_submit button{
     width: 200px;
     border: solid white 2px;
-}
+} */
 
 /*  */
 
@@ -204,4 +208,53 @@ footer{
     width: 130px;
     height: 120px;
 }
+/*  */
+
+p{
+    font-family: "Nunito";
+    font-size: 18px;
+}
+
+
+span{
+    color: crimson;
+    font-size: 80px;
+    font-family: 'Edwardian Script ITC';
+}
+
+.brand a span b{
+    color: crimson;
+    font-size: 50px;
+    font-family: 'Edwardian Script ITC';
+    font-weight: 1000;
+}
+
+h1{
+    font-family: "Nunito";
+    font-size: 49px;
+    font-weight: 600;
+}
+
+/*Facilities */
+.facilities{
+    margin-left: 25%;
+    width: 50%;
+}
+/*  */
+
+/* Swiper */
+/* .swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .swiper-slide {
+    background-position: center; 
+    width: 100%;
+    height: 300px;
+  }
+  .swiper-slide img{
+    width: 400px; 
+    height: 200px;
+  } */
 /*  */
