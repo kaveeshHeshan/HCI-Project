@@ -4,7 +4,7 @@ body{
 
 p{
     font-family: "Nunito";
-    font-size: 18px;
+    font-size: 19px;
 }
 
 .mContent img{
@@ -75,5 +75,30 @@ footer{
     width: 75%;
 }
 
+.line-crimson {
+    border: 2px solid crimson;
+    border-radius: 50%;
+}
 
 /* End of Horizontal Line */
+
+
+/* Services Box */
+
+/* .services-box{
+padding-left: 70px;
+padding-right: 70px;
+} */
+
+/*  */
+
+/* text-style */
+
+.text-style span{
+    color: crimson;
+    font-weight: 600;
+    font-size: 49px;
+}
+
+/*  */
+
