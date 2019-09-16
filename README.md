@@ -4,16 +4,16 @@
 
 # Files contain
 
-**1. CSS folder with css files**
-**2. JS folder with js files**
-**3. Home Page**
-**4. Services Page**
-**5. Gallery page**
-**6. Rooms and Cottages page**
-**7. Excursion Page**
-**8. Visit Temple Weherahena Page**
-**9. Visit Whales Watching At Mirissa Page**
-**10. About us page**
+1. **CSS folder with css files**
+2. **JS folder with js files**
+3. **Home Page**
+4. **Services Page**
+5. **Gallery page**
+6. **Rooms and Cottages page**
+7. **Excursion Page**
+8. **Visit Temple Weherahena Page**
+9. **Visit Whales Watching At Mirissa Page**
+10. **About us page**
 
 ## Introduction
 This web design is designed for a existing web application called "Hotel Eva Lanka". This is a university project and this web design is built for academic purpose only. In this project, the web designers have to redesigned a web design for a selected existing web application's web design which has bad user experience with low customer satisfaction.
