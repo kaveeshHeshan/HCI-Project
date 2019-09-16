@@ -181,3 +181,7 @@ footer h6 a:hover {
     color: crimson;
     transition: 0.5s;
 }
+
+.naming {
+    font-weight: 600;
+}
