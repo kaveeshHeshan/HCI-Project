@@ -52,6 +52,11 @@ footer{
     padding-top: 0.5rem;
 }
 
+footer h6 a:hover {
+    color: crimson;
+    transition: 0.5s;
+}
+
 .footer_img1 img{
     width: 250px;
     height: 70px;
