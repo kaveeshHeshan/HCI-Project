@@ -150,3 +150,23 @@ footer{
   
   /* End of Custom Scroll Bar */
 
+
+  /* Scroll Top button (topBtn) */
+
+#topBtn {
+  position: fixed;
+  overflow: hidden;
+  bottom: 20px;
+  right: 40px;
+  font-size: 32px;
+  width: 60px;
+  height: 60px;
+  background: crimson;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+}
+
+/*  */

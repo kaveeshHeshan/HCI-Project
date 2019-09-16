@@ -12,58 +12,51 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/mdb.min.css">
     <link rel="stylesheet" href="css/navbarForOthers.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+
    
 
 </head>
 <body>
+<div>
     <!-- Navbar -->
     <div>
-            <nav class="navbar navbar-light navbar-1 white">
-
-                <!-- Navbar brand -->
-                <a class="navbar-brand" href="Home Page.html"><img src="css/img/logo.png" style="width: 50px; height: 50px;"><b><span><b>H</b></span> otel Eva <span><b>Lanka</b></span></b></a>
-            
-                <!-- Collapse button -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
-                aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            
-                <!-- Collapsible content -->
-                <div class="collapse navbar-collapse" id="navbarSupportedContent15">
-            
-                <!-- Links -->
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item ">
-                        <a class="nav-link" href="Home Page.html">Home</a>
-                    <!-- active -->
-                    <!--  <span class="sr-only">(current)</span> -->
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Gallery.html">Gallery</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Local_attractions.html">Excursion</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Services and facilities.html">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
-                    </li>
-                </ul>
-                <!-- Links -->
-            
+        <nav class="navbar shadow-lg navbar-expand-md navbar-light navbar navbar-light navbar-1 white">
+            <div class="container-fluid">
+                <a href="Home Page.html" class="navbar-brand"><img src="css/img/logo (1).png" style="width: 110px; height: 65px;"><b><span>H</span> otel <b><span>E</span></b> va <span><b>Lanka</b></span></b></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="Home Page.html">Home</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="Gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Services and facilities.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                    </ul>
                 </div>
-                <!-- Collapsible content -->
-            
-            </nav>
+            </div>
+        </nav>
         </div>
     <!-- Ends Navbar -->
     
     <!-- Breadscrumb -->
-        <div>
+        <div class="container-fluid">
             <nav aria-label="breadcrumb">
-                <ol class="breadcrumb shadow">
-                    <li class="breadcrumb-item directLink"><b><a href="Home Page.html" style="color: black;">Home</a></b></li>
+                <ol class="breadcrumb shadow-lg">
+                    <li class="breadcrumb-item directLink"><b><a href="Home Page.html" style="color: black; font-weight: 600;">Home</a></b></li>
                     <li class="breadcrumb-item directLink" aria-current="page">Rooms & Cottages</li>
                 </ol>
             </nav>
@@ -157,26 +150,31 @@
                     <p class="container">
                         <b class="sub_topic1">The Rooms</b>
                         <br>
-                        <P class="container text-center">
-                            The Standard Rooms (30 sq.m) have two single beds, A/C, fan, a big bathroom and shower, 
-                            Telephone, room-and laundry service. 
-                            The Rooms are situated in one building and each has his own private terrace with Garden View.
-                        </P>    
+                        <div class="para_box">
+                            <P class="container text-center">
+                                The Standard Rooms (30 sq.m) have two single beds, A/C, fan, a big bathroom and shower, 
+                                Telephone, room-and laundry service. 
+                                The Rooms are situated in one building and each has his own private terrace with Garden View.
+                            </P> 
+                        </div>   
                         <br>
                         <b class="sub_topic1">The Chalets</b>
                         <br>
-                        <p class="container text-center">
-                            There are two kinds of Chalets: Double Chalet and Twin Chalet, both available with Garden or Sea View. 
-                            The Double Chalets, with their 50 sq.m have a king size double bed and two single beds in a separated area. 
-                            The Twin Chalets (a little bigger than the Double) are equipped with two king size single beds (that can be unite) and they also offer two single beds in a separated area. 
-                            Each Chalet has his own private terrace.
-                        </p>
+                        <div class="para_box">
+                            <p class="container text-center">
+                                There are two kinds of Chalets: Double Chalet and Twin Chalet, both available with Garden or Sea View. 
+                                The Double Chalets, with their 50 sq.m have a king size double bed and two single beds in a separated area. 
+                                The Twin Chalets (a little bigger than the Double) are equipped with two king size single beds (that can be unite) and they also offer two single beds in a separated area. 
+                                Each Chalet has his own private terrace.
+                            </p>
+                        </div>
                     </p>
 
-                    <hr class="line-black">
                 </div>
+                    <hr class="line-black">
+                
                  <!-- End of the content of the rooms and cottages -->
-    
+
         <!-- Start of Footer --> 
 
             <footer class="row text-center">
@@ -195,11 +193,22 @@
                 </footer>
             
     <!-- End of Footer --> 
+
+        <!-- Scroll Top starts here -->
+        <div>
+            <button class="shadow-lg" id="topBtn"><i class="fas fa-arrow-up"></i></button>
+        </div>
+    <!-- Scroll top ends here -->
+</div>
+
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/mdb.min.js"></script>
 <script src="js/swiper.min.js"></script>
 <script src="js/swiper.min.js"></script>
+<script src="js/CutomizedJS.js"></script>
+<script src="js/all.js"></script>
+<script src="js/fontawesome.min.js"></script>
 <script>
     
     var swiper = new Swiper('.swiper-container', {

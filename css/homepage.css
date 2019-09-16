@@ -125,7 +125,7 @@
 
 .description p{
     font-family: "Nunito";
-    font-size: 19px;
+    font-size: 17px;
 }
 
 .text1{
@@ -140,4 +140,37 @@
 .carousel-inner img{
     width: 90%;
     height: 90%;
+}
+
+
+/* Scroll Top button (topBtn) */
+
+#topBtn {
+    position: fixed;
+    overflow: hidden;
+    bottom: 20px;
+    right: 40px;
+    font-size: 32px;
+    width: 60px;
+    height: 60px;
+    background: crimson;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+}
+
+/*  */
+
+.para_box {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.naming b span{
+    color: crimson;
+    font-size: 40px;
+    font-family: 'Edwardian Script ITC';
+    font-weight: 600;
 }

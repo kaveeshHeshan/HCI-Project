@@ -4,7 +4,7 @@ body{
 
 p{
     font-family: "Nunito";
-    font-size: 19px;
+    font-size: 17px;
 }
 
 .mContent img{
@@ -102,3 +102,38 @@ padding-right: 70px;
 
 /*  */
 
+/* Scroll Top button (topBtn) */
+
+#topBtn {
+    position: fixed;
+    overflow: hidden;
+    bottom: 20px;
+    right: 40px;
+    font-size: 32px;
+    width: 60px;
+    height: 60px;
+    background: crimson;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+}
+
+/*  */
+
+.para_box {
+    margin-left: 160px;
+    margin-right: 160px;
+    color: black;
+}
+
+.para_box_left {
+    margin-left: 110px;
+    color: black;
+}
+
+.para_box_right {
+    margin-right: 110px;
+    color: black;
+}

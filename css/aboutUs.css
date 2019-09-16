@@ -12,7 +12,7 @@ p{
     left: 50%;
     padding-top: 14%;
     margin-left: 30%; */
-    margin-top: 6%;
+    margin-top: 1%;
     width: 400px;
 }
 
@@ -31,6 +31,10 @@ p{
 p b{
     font-family: "Nunito";
     font-size: 19px;
+}
+
+p {
+    font-size: 17px;
 }
 
 .sub_topic1{
@@ -97,3 +101,28 @@ footer{
   
   
   /* End of Custom Scroll Bar */
+
+  /* Scroll Top button (topBtn) */
+
+#topBtn {
+    position: fixed;
+    overflow: hidden;
+    bottom: 20px;
+    right: 40px;
+    font-size: 32px;
+    width: 60px;
+    height: 60px;
+    background: crimson;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+}
+
+/*  */
+
+.para_box {
+    margin-left: 150px;
+    margin-right: 150px;
+}

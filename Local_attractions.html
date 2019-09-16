@@ -17,48 +17,37 @@
 <body>
     <!-- Navbar -->
     <div>
-            <nav class="navbar navbar-light navbar-1 white">
-
-                <!-- Navbar brand -->
-                <a class="navbar-brand" href="Home Page.html"><img src="css/img/logo.png" style="width: 50px; height: 50px;"><b><span><b>H</b></span> otel Eva <span><b>Lanka</b></span></b></a>
-            
-                <!-- Collapse button -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
-                aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            
-                <!-- Collapsible content -->
-                <div class="collapse navbar-collapse" id="navbarSupportedContent15">
-            
-                <!-- Links -->
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item ">
-                        <a class="nav-link" href="Home Page.html">Home</a>
-                    <!-- active -->
-                    <!--  <span class="sr-only">(current)</span> -->
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Gallery.html">Gallery</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Local_attractions.html">Excursion</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Services and facilities.html">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
-                    </li>
-                </ul>
-                <!-- Links -->
-            
+        <nav class="navbar shadow-lg navbar-expand-md navbar-light navbar navbar-light navbar-1 white">
+            <div class="container-fluid">
+                <a href="Home Page.html" class="navbar-brand"><img src="css/img/logo (1).png" style="width: 110px; height: 65px;"><b><span>H</span> otel <b><span>E</span></b> va <span><b>Lanka</b></span></b></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="Home Page.html">Home</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="Gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Services and facilities.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                    </ul>
                 </div>
-                <!-- Collapsible content -->
-            
-            </nav>
+            </div>
+        </nav>
         </div>
     <!-- Ends Navbar -->
     <!-- Breadscrumb -->
-    <div>
+    <div class="container-fluid">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb shadow">
                 <li class="breadcrumb-item directLink"><b><a href="Home Page.html" style="color: black;">Home</a></b></li>
@@ -73,7 +62,7 @@
         <h1><span><b>E</b></span> xcursion</h1>
     </div>
     <hr class="line-black">
-        <p style="font-size: 19px;" class="text-center container">
+        <p style="font-size: 17px;" class="text-center container">
             Places where you can have fun with your family members or collegues. Followings are the best attraction places
             attracted by the guests and tourists.  
         </p>
@@ -115,13 +104,19 @@
             </footer>
         
         <!-- End of Footer --> 
-
+    
+        <!-- Scroll Top starts here -->
+            <div>
+                <button class="shadow-lg" id="topBtn"><i class="fas fa-arrow-up"></i></button>
+            </div>
+        <!-- Scroll top ends here -->
 
 
         <script src="js/jquery-3.3.1.min.js"></script>
         <script src="js/all.js"></script>
         <script src="js/fontawesome.min.js"></script>
         <script src="js/mdb.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>        
+        <script src="js/bootstrap.min.js"></script>    
+        <script src="js/CutomizedJS.js"></script>    
 </body>
 </html>

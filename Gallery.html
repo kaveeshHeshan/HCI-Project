@@ -17,53 +17,40 @@
 </head>
 <body>
         <div>
-                <!--Navbar-->
-                <div>
-                        <nav class="navbar navbar-light navbar-1 white">
-                
-                            <!-- Navbar brand -->
-                            <a class="navbar-brand" href="Home Page.html"><img src="css/img/logo.png" style="width: 50px; height: 50px;"><b><span>H</span> otel Eva <span><b>Lanka</b></span></b></a>
-                        
-                            <!-- Collapse button -->
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
-                            aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                        
-                            <!-- Collapsible content -->
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent15">
-                        
-                            <!-- Links -->
-                            <ul class="navbar-nav mr-auto">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="Home Page.html">Home <span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="Gallery.html">Gallery</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="Local_attractions.html">Excursion</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="Services and facilities.html">Services</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact Us</a>
-                                </li>
-                            </ul>
-                            <!-- Links -->
-                        
-                            </div>
-                            <!-- Collapsible content -->
-                        
-                        </nav>
+            <nav class="navbar shadow-lg navbar-expand-md navbar-light navbar navbar-light navbar-1 white">
+                <div class="container-fluid">
+                    <a href="Home Page.html" class="navbar-brand"><img src="css/img/logo (1).png" style="width: 110px; height: 65px;"><b><span>H</span> otel <b><span>E</span></b> va <span><b>Lanka</b></span></b></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="Home Page.html">Home</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="Gallery.html">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Services and facilities.html">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About Us</a>
+                            </li>
+                        </ul>
                     </div>
-                <!--/.Navbar-->
+                </div>
+            </nav>   
             </div>
     <!-- Start of the breadcrumb -->
 
-    <div>
+    <div class="container-fluid">
             <nav aria-label="breadcrumb">
                     <ol class="breadcrumb shadow">
-                      <li class="breadcrumb-item"><a href="Home Page.html" style="color: black;">Home</a></li>
+                      <li class="breadcrumb-item"><b><a href="Home Page.html" style="color: black; font-weight: 600;">Home</a></b></li>
                       <li class="breadcrumb-item active" aria-current="page">Gallery</li>
                     </ol>
                   </nav>
@@ -110,7 +97,7 @@
                 </div>
     </div>
     <hr class="line-black">
-
+    
     <!-- Start of Footer -->
 
     <footer class="row text-center">
@@ -125,6 +112,12 @@
         </footer>
 
 <!-- End of Footer --> 
+
+<!-- Scroll Top starts here -->
+    <div>
+        <button class="shadow-lg" id="topBtn"><i class="fas fa-arrow-up"></i></button>
+    </div>
+<!-- Scroll top ends here -->
     
 
     <script src="js/jquery-3.3.1.min.js"></script>
@@ -132,5 +125,6 @@
     <script src="js/mdb.min.js"></script>
     <script src="js/all.js"></script>
     <script src="js/fontawesome.min.js"></script>
+    <script src="js/CutomizedJS.js"></script>
 </body>
 </html>

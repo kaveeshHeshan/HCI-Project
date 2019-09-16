@@ -47,7 +47,7 @@ footer{
 
 p{
   font-family: "Nunito";
-  font-size: 18px;
+  font-size: 17px;
 }
 
 /* span{
@@ -124,7 +124,27 @@ p b{
 
 /* End of Custom Scroll Bar */
 
-/* Font Awesome  */
+/* Scroll Top button (topBtn) */
 
+#topBtn {
+  position: fixed;
+  overflow: hidden;
+  bottom: 20px;
+  right: 40px;
+  font-size: 32px;
+  width: 60px;
+  height: 60px;
+  background: crimson;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+}
 
 /*  */
+
+.para_box {
+  margin-left: 40px;
+  margin-right: 40px;
+}

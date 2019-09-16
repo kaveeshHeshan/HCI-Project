@@ -47,7 +47,7 @@ footer{
 
 p{
   font-family: "Nunito";
-  font-size: 18px;
+  font-size: 17px;
 }
 
 /* span{
@@ -83,6 +83,7 @@ p b{
 .sub_topic1{
   font-family: "Nunito";
   font-size: 19px;
+  font-weight: 600;
 }
 
 /* Horizontal Line */
@@ -123,3 +124,28 @@ p b{
 
 
 /* End of Custom Scroll Bar */
+
+/* Scroll Top button (topBtn) */
+
+#topBtn {
+  position: fixed;
+  overflow: hidden;
+  bottom: 20px;
+  right: 40px;
+  font-size: 32px;
+  width: 60px;
+  height: 60px;
+  background: crimson;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+}
+
+/*  */
+
+.para_box {
+  margin-left: 150px;
+  margin-right: 150px;
+}
