@@ -19,15 +19,15 @@
 This web design is designed for a existing web application called "Hotel Eva Lanka". This is a university project and this web design is built for academic purpose only. In this project, the web designers have to redesigned a web design for a selected existing web application's web design which has bad user experience with low customer satisfaction.
 
 The existing Hotel Eva Lanka web design has the following issues.
-1. Font size to too small to read for the user.
-2. Every paragraph is left aligned.
-3. Content is not enough for the guests or customers.
-4. High Quality Photographs are not used.
-5. Bad navigation structure.
-6. Structure of content of the web page is not well managed.
-7. When a customer click the logo on navigation bar, the page is redirecting to the same page. (After clicking the logo, it should be redirected to the home page).
-8. In home page, some links are not working.
-9. Color scheme used in existing web design is not attractive.
-10. No searching feature included.
+1. **Font size to too small to read for the user**.
+2. **Every paragraph is left aligned**.
+3. **Content is not enough for the guests or customers**.
+4. **High Quality Photographs are not used**.
+5. **Bad navigation structure**.
+6. **Structure of content of the web page is not well managed**.
+7. **When a customer click the logo on navigation bar, the page is redirecting to the same page. (After clicking the logo, it should be redirected to the home page)**.
+8. **In home page, some links are not working**.
+9. **Color scheme used in existing web design is not attractive**.
+10.**No searching feature included**.
 
 So we have come up with a better design by answering the above mentioned issues using some modern technology and knowledge. This project is for that. Thank you.
