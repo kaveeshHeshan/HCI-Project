@@ -31,3 +31,8 @@ The existing Hotel Eva Lanka web design has the following issues.
 10.**No searching feature included**.
 
 So we have come up with a better design by answering the above mentioned issues using some modern technology and knowledge. This project is for that. Thank you.
+
+## I have used the following fonts
+
+1. For main topics :- Edwardian Script ITC
+2. For paragraphs :- Nunito
