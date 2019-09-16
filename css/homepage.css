@@ -185,3 +185,18 @@ footer h6 a:hover {
 .naming {
     font-weight: 600;
 }
+
+
+/* Card */
+
+.card {
+    transition: 0.5s;
+    width: 350px;
+}
+
+.card:hover {
+    filter: scale(100%);
+    transform: scale(1.1);
+}
+
+/*  */
