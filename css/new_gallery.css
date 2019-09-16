@@ -52,13 +52,18 @@ body{
 
 /* Footer */
 
-footer{
-    font-family: 'Nunito';
-    font-size: 17px;
-    background-color: #3f3f3f;
-    color: #d5d5d5;
-    padding-top: 0.5rem;
-  }
+footer {
+  font-family: 'Nunito';
+  font-size: 17px;
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding-top: 0.5rem;
+}
+
+footer h6 a:hover {
+  color: crimson;
+  transition: 0.5s;
+}
   
   .footer_img1 img{
     width: 250px;

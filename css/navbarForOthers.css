@@ -99,6 +99,7 @@ nav ul li a{
     font-family: 'Nunito';
     font-size: 16px;
     font-weight: 600;
+    float: right;
 }
 
 nav ul li a:last-child{
@@ -150,3 +151,13 @@ nav ul li a:hover::after{
     font-family: 'Nunito';
     font-weight: 600;
 }
+
+/* active-link */
+
+.active-link {
+    background-color: crimson;
+    width: 90px;
+    color: rgb(255, 255, 255);
+}
+
+/*  */

@@ -174,3 +174,10 @@
     font-family: 'Edwardian Script ITC';
     font-weight: 600;
 }
+
+/* footer */
+
+footer h6 a:hover {
+    color: crimson;
+    transition: 0.5s;
+}
