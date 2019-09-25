@@ -1,5 +1,5 @@
 body{
-    background: url('img/ExcursionPage_1.png') fixed;
+    /* background: url('img/ExcursionPage_1.png') fixed; */
     background-size: cover;
 }
 
@@ -120,3 +120,21 @@ footer h6 a:hover {
 }
 
 /*  */
+
+
+/* text-style */
+
+.text-style span{
+    color: crimson;
+    font-weight: 600;
+    font-size: 56px;
+}
+
+/*  */
+
+
+/* 
+.para_box {
+  margin-left: 4%;
+  margin-right: 4%;
+} */

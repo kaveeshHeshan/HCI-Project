@@ -128,17 +128,21 @@ padding-right: 70px;
 /*  */
 
 .para_box {
-    margin-left: 160px;
-    margin-right: 160px;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 17px;
     color: black;
+    /* 168px */
 }
 
 .para_box_left {
     margin-left: 140px;
     color: black;
+    font-size: 17px;
 }
 
 .para_box_right {
     margin-right: 140px;
     color: black;
+    font-size: 17px;
 }
