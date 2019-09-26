@@ -147,3 +147,8 @@ p b{
   font-size: 49px;
 }
 /* End of Custom Scroll Bar */
+
+.para_box {
+  margin-left: 5%;
+  margin-right: 5%;
+}

@@ -34,6 +34,11 @@ footer{
   padding-top: 0.5rem;
 }
 
+footer h6 a:hover {
+  color: crimson;
+  transition: 0.5s;
+}
+
 .footer_img1 img{
   width: 250px;
   height: 70px;
@@ -43,11 +48,12 @@ footer{
   width: 130px;
   height: 120px;
 }
+
 /*  */
 
 p{
   font-family: "Nunito";
-  font-size: 18px;
+  font-size: 17px;
 }
 
 /* span{
@@ -122,13 +128,6 @@ p b{
 /* #ffc72c */
 
 
-.text-style span{
-  color: crimson;
-  font-weight: 600;
-  font-size: 49px;
-}
-
-
 /* End of Custom Scroll Bar */
 
 /* Scroll Top button (topBtn) */
@@ -151,12 +150,13 @@ p b{
 
 /*  */
 
-.para_box{
+.para_box {
   margin-left: 4%;
   margin-right: 4%;
 }
 
-h6 a:hover {
-  color: crimson;
+/* Light box  */
+/* 
+.imgBX{
   transition: 0.5s;
-}
+} */
