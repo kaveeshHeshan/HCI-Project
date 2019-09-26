@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" href="css/img/logo (1).png" style="width: 200px; height: 120px;">
+    <link rel="icon" href="css/img/EVA LOGO.png" style="width: 200px; height: 120px;">
     <title>Contact Us</title>
 
     <link rel="stylesheet" href="css/mdb.min.css">
@@ -67,7 +67,7 @@
                 <div class="container-fluid">
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb shadow">
-                            <li class="breadcrumb-item"><a href="Home Page.html" style="color: black; font-weight: 600">Home</a></li>
+                            <li class="breadcrumb-item"><a href="Home Page.html" style="color: black;">Home</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
                         </ol>
                     </nav>
@@ -87,14 +87,14 @@
                                 <label for="checkcontact" class="contactbutton" style=" width: 400px;pointer-events: none;">
                                     <div class="mail"></div>
                                 </label>
-                                <input type="hidden" id="checkcontact" type="checkbox">
-                                <div class="row text-center">
+                                <input id="checkcontact" type="checkbox">
+                                <div class="row">
                                     <div class="col-12">
                                             <form id="contact-form" name="form" onsubmit="return validate();">
                                                     <input name="name" type="text" id="name" class="form-control" pattern="[A-Za-z\s]+" title="You can't input any numbers" placeholder="Your Name" required />
                                                     <br>
                                                     <input name="email" type="email" id="email" class="form-control" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Invalid Email" placeholder="Your E-mail" required/><br>
-                                                    <input name="phonenumber" type="number" id="phonenumber" pattern="^\d{10}$" title="Invalid Number. You should input 10 numbers and no texts." class="form-control" placeholder="Your Phone-Number" required/><br>
+                                                    <input name="phonenumber" type="tel" id="phonenumber" pattern="^\d{10}$" title="Invalid Number. You should input 10 numbers and You can't input any letters." class="form-control" placeholder="Your Phone-Number" required/><br>
                                                     
                                                     <label class="control-label text-left border0"for="selectSubject">Subject</label>
                                                     <div class="controls"> 
@@ -202,7 +202,7 @@
 
         else{
 
-            alert("Thank You!");
+            alert("Thank You! Your message has been sent.");
 
         }
 
