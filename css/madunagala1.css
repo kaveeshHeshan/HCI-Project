@@ -152,3 +152,8 @@ p b{
   margin-left: 5%;
   margin-right: 5%;
 }
+
+h6 a:hover {
+  color: crimson;
+  transition: .4s;
+}
