@@ -3,7 +3,6 @@ body{
 }
 
 p{
-    font-family: "Nunito";
     font-size: 18px;
 }
 
@@ -25,7 +24,6 @@ p{
 .topic h1{
     color: black;
     font-size: 50px;
-    font-family: 'Nunito';
 }
 
 .brand span{
@@ -35,7 +33,6 @@ p{
 }
 
 p b{
-    font-family: "Nunito";
     font-size: 19px;
 }
 
@@ -44,14 +41,12 @@ p {
 }
 
 .sub_topic1{
-    font-family: "Nunito";
     font-size: 19px;
 }
 
 /* Footer */
 
 footer{
-    font-family: 'Nunito';
     font-size: 17px;
     background-color: #3f3f3f;
     color: #d5d5d5;

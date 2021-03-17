@@ -27,7 +27,6 @@ body {
   /* Footer */
 
 footer{
-  font-family: 'Nunito';
   font-size: 17px;
   background-color: #3f3f3f;
   color: #d5d5d5;
@@ -52,7 +51,6 @@ footer h6 a:hover {
 /*  */
 
 p{
-  font-family: "Nunito";
   font-size: 17px;
 }
 
@@ -76,18 +74,15 @@ p{
 }
 
 .topic h1{
-  font-family: "Nunito";
   font-size: 49px;
   font-weight: 300;
 }
 
 p b{
-  font-family: "Nunito";
   font-size: 19px;
 }
 
 .sub_topic1{
-  font-family: "Nunito";
   font-size: 19px;
 }
 

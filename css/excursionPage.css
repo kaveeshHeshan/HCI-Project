@@ -13,7 +13,6 @@ body{
 .card img{
     width: 100%;
     height: 50%;
-    font-family: 'Nunito';
 }
 
 body{
@@ -21,7 +20,6 @@ body{
 }
 
 p{
-    font-family: "Nunito";
     font-size: 18px;
 }
 
@@ -47,19 +45,16 @@ p{
 }
 
 p b{
-    font-family: "Nunito";
     font-size: 19px;
 }
 
 .sub_topic1{
-    font-family: "Nunito";
     font-size: 19px;
 }
 
 /* Footer */
 
 footer{
-    font-family: 'Nunito';
     font-size: 17px;
     background-color: #3f3f3f;
     color: #d5d5d5;

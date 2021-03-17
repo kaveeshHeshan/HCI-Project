@@ -1,3 +1,8 @@
+@font-face{
+    font-family: Nunito-family;
+    src: url(../fonts/Nunito/Nunito-Regular.ttf);
+}
+
 *{
     padding: 0;
     box-sizing: border-box;
@@ -5,6 +10,7 @@
 
 body{
     overflow-x: hidden;
+    font-family: "Nunito-family";
 }
 
 a{
@@ -37,7 +43,7 @@ nav{
     align-items: center;
     text-transform: capitalize;
     font-size: 15px;
-    font-family: 'Nunito Light';
+    /* font-family: 'Nunito Light'; */
 }
 
 .brand{

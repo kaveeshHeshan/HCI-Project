@@ -1,3 +1,8 @@
+@font-face{
+    font-family: Nunito-family;
+    src: url(../fonts/Nunito/Nunito-Regular.ttf);
+}
+
 *{
     padding: 0;
     box-sizing: border-box;
@@ -5,6 +10,7 @@
 
 body{
     overflow-x: hidden;
+    font-family: "Nunito-family";
 }
 
 a{
@@ -38,7 +44,7 @@ nav{
     align-items: center;
     text-transform: capitalize;
     font-size: 15px;
-    font-family: 'Nunito Light';
+    /* font-family: 'Nunito Light'; */
 }
 
 .brand{
@@ -105,7 +111,7 @@ nav ul li a{
     margin: 0 1rem;
     position: relative;
     letter-spacing: 1px;
-    font-family: 'Nunito';
+    /* font-family: 'Nunito'; */
     font-size: 16px;
     font-weight: 600;
     float: right;
@@ -157,7 +163,7 @@ nav ul li a:hover::after{
   }
   
 .nav-item {
-    font-family: 'Nunito';
+    /* font-family: 'Nunito'; */
     font-weight: 600;
 }
 

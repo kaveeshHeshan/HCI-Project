@@ -1,8 +1,16 @@
+@font-face{
+    font-family: Nunito-family;
+    src: url(../fonts/Nunito/Nunito-Regular.ttf);
+}
+
+body{
+    font-family: "Nunito-family";
+}
+
 .booking-area {
     padding:10px;
     background: rgb(252, 252, 252);
     color: black;
-    font-family: 'Nunito SemiBold';
 }
 
 .booking-area .row .card{
@@ -15,7 +23,6 @@
 .booking-area .row .card img{
     width: 100%;
     height: 160px;
-    font-family: 'Nunito';
 }
 
 /* Custom Scroll Bar */
@@ -62,7 +69,6 @@
 .image img{
     width: 100%;
     height: 50%;
-    font-family: 'Nunito';
 }
 
 /*  */
@@ -192,7 +198,6 @@ input::placeholder{
 /* Footer */
 
 footer{
-    font-family: 'Nunito';
     font-size: 17px;
     background-color: #3f3f3f;
     color: #d5d5d5;
@@ -211,7 +216,6 @@ footer{
 /*  */
 
 p{
-    font-family: "Nunito";
     font-size: 18px;
 }
 
@@ -230,7 +234,6 @@ span{
 }
 
 h1{
-    font-family: "Nunito";
     font-size: 49px;
     font-weight: 600;
 }

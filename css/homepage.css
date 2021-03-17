@@ -1,3 +1,12 @@
+@font-face{
+    font-family: Nunito-family;
+    src: url(../fonts/Nunito/Nunito-Regular.ttf);
+}
+
+body{
+    font-family: "Nunito-family";
+}
+
 /* Search Bar */
 
 /* .search input{
@@ -60,7 +69,6 @@
 
 .search-txt::placeholder{
     color: white;
-    font-family: 'Nunito';
 }
 
 /*  */
@@ -71,12 +79,10 @@
 
 .descript{
     color: black;
-    font-family: "Nunito";
 }
 
 .descript h6{
     color: rgb(73, 72, 72);
-    font-family: "Nunito";
 }
 
 .inclusion{
@@ -124,7 +130,6 @@
 }
 
 .description p{
-    font-family: "Nunito";
     font-size: 17px;
 }
 
